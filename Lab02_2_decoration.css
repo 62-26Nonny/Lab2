@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(https://i.pinimg.com/originals/ec/d4/fb/ecd4fbbe8c009860fb76e439ebb84856.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.jumbotron {
+    background-image: linear-gradient(141deg, rgba(106,0,158,1) 0%, rgba(0,162,246,1) 47%, rgba(0,18,173,1) 79%);
+}
+.header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    padding-bottom: 5px;
+    transition: 1s ease-out;
+}
+.container.creator {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.creator figure img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 50px;
+}
+.creator p {
+    font-family: 'Merriweather', serif;
+    border-radius: 10%;
+    margin-left: 300px;
+    padding: 20px;
+    padding-right: 50px;
+    width: 50%;
+    color:black;
+}
+.creator p strong{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.creator hr {
+    clear: both;
+}
+.topic {
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,63,253,1) 50%, rgba(69,208,252,1) 100%);
+    font-family: 'Lobster Two', cursive;
+    margin-top: 15px;
+    margin-left: 0;
+    padding: 5px;
+    width: 350px;
+    transition: width 1s ;
+}
+.container h1{
+    color: white;
+    padding-left: 10px;
+}
+.topic:hover{
+    width: 1000px;
+}
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-image: linear-gradient(180deg, rgba(5,15,153,1) 0%, rgba(7,15,162,1) 45%, rgba(0,10,71,1) 83%, rgba(0,25,59,1) 100%);
+}
+.footer p {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer figure img {
+    width: 15%;
+    height: auto;
+    float: left; 
+    clear: left;   
+}
+.footer figcaption {
+    margin-left: 75px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    transition: color 1s;
+}
+.footer figcaption:hover {
+    color: black;
+}
+.footer .contact{
+    width: 400px;
+    transition: background-color 0.5s;
+}
+.footer .contact:hover{
+    background-color: white;
+}
+.gallery {
+    background-color: azure;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.gallery figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contain {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 75%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s ease;
+}
+.overay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 255, 255);
+}
+.contain:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.contain:hover .overay {
+    opacity: 0.75;
+}
+.contain .overay p {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contain figcaption {
+    color: black;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
